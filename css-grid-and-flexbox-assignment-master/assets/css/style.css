@@ -1,0 +1,142 @@
+/* This is an example of how to include the border or color layout for all the problems below:
+.example {
+  border: 3px solid #bbe868;
+  YOUR CODE GOES HERE
+} */
+
+/*(1) Your answer goes below here for question #1 please use the border below */
+.question1 {
+  border: 3px solid #ffcc5c;
+  display: flex;
+}
+
+.question1 div {
+  flex-grow: 1;
+}
+
+/*(2) Your answer goes below here for question #2 please use the border below */
+.question2 {
+  border: 3px solid #1f2546;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .question2 {
+    justify-content: center;
+  }
+  .question2 div {
+    width: 100%;
+  }
+}
+
+/*(3) Your answer goes below here for question #3 please use the border below */
+.question3 {
+  border: 3px solid #e31c79;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/*(4) Your answer goes below here for question #4 please use the border below */
+.question4 {
+  border: 3px solid #e33618;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.question4 .Search4 {
+  justify-content: center;
+  align-self: center;
+}
+
+.question4 .Login4 {
+  align-self: flex-start;
+}
+
+/*(5) Your answer goes below here for question #5 please use the border below */
+.question5 {
+  border: 3px solid #1f2546;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.question5 .Search5,
+.question5 .Login5 {
+  align-self: flex-start;
+}
+
+/*(6) Your answer goes below here for question #6 please use the border below */
+.question6 {
+  border: 3px solid #91d2e0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.question6 .Search6 {
+  align-self: stretch;
+}
+
+.question6 .Login6 {
+  align-self: flex-start;
+}
+
+/*(7) Your answer goes below here for question #7 please use the border below */
+.question7 {
+  border: 3px solid #139dc2;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+/*(8) Your answer goes below here for question #8 please use the border & background below */
+.question8 {
+  border: 3px solid #7b8ac7;
+  background-color: #bad3e2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/*(9) Your answer goes below here for question #9 please use the border & background below */
+.question9 {
+  border: 3px solid #7b8ac7;
+  background-color: #bad3e2;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/*(10) Your answer goes below here for question #10 please use the border & background below */
+.question10 {
+  border: 3px solid #b8f9df;
+  background-color: #bad3e2;
+  display: grid;
+  grid-template-columns: 30% 20% 30% 20%;
+}
+
+/*(11) Your answer goes below here for question #11 please use the border & background below */
+.question11 {
+  border: 3px solid #7f798a;
+  background-color: #bad3e2;
+  display: grid;
+  grid-template-areas:
+    "header header header header header"
+    "aside main main main main"
+    "footer footer footer footer footer";
+  grid-template-columns: 150px 1fr;
+}
+
+.question11 > header {
+  grid-area: header;
+}
+.question11 > main {
+  grid-area: main;
+}
+
+.question11 > aside {
+  grid-area: aside;
+}
+
+.question11 > footer {
+  grid-area: footer;
+}

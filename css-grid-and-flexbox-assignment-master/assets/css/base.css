@@ -1,0 +1,280 @@
+/* Question1 style key */
+
+html,
+body {
+  background-color: #f6dc7d;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  /* height: 250% */
+}
+
+body > section {
+  margin-bottom: 4rem;
+}
+
+p {
+  font-weight: bold;
+}
+
+.question1 > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.question1 > div:nth-child(1) {
+  background-color: #96ceb4;
+}
+
+.question1 > div:nth-child(2) {
+  background-color: #ff6f69;
+}
+
+.question1 > div:nth-child(3) {
+  background-color: #88d8b0;
+}
+
+/* Question2 style key */
+
+.question2 > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.question2 > div:nth-child(1) {
+  background-color: #96ceb4;
+}
+
+.question2 > div:nth-child(2) {
+  background-color: #ff6f69;
+}
+
+.question2 > div:nth-child(3) {
+  background-color: #88d8b0;
+}
+
+/* Question3 style key */
+
+.question3 > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.question3 > div:nth-child(1) {
+  background-color: #96ceb4;
+}
+
+.question3 > div:nth-child(2) {
+  background-color: #ff6f69;
+}
+
+.question3 > div:nth-child(3) {
+  background-color: #88d8b0;
+}
+
+/* Question4 style key */
+
+.question4 > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.question4 > div:nth-child(1) {
+  background-color: #96ceb4;
+}
+
+.question4 > div:nth-child(2) {
+  background-color: #ff6f69;
+}
+
+.question4 > div:nth-child(3) {
+  background-color: #88d8b0;
+}
+
+.question4 > div:nth-child(4) {
+  background-color: #f5e553;
+}
+
+/* Question5 style key */
+
+.question5 > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.question5 > div:nth-child(1) {
+  background-color: #96ceb4;
+}
+
+.question5 > div:nth-child(2) {
+  background-color: #ff6f69;
+}
+
+.question5 > div:nth-child(3) {
+  background-color: #88d8b0;
+}
+
+.question5 > div:nth-child(4) {
+  background-color: #f5e553;
+}
+
+/* Question6 style key */
+
+.question6 > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.question6 > div:nth-child(1) {
+  background-color: #96ceb4;
+}
+
+.question6 > div:nth-child(2) {
+  background-color: #ff6f69;
+}
+
+.question6 > div:nth-child(3) {
+  background-color: #88d8b0;
+}
+
+.question6 > div:nth-child(4) {
+  background-color: #f5e553;
+}
+
+/* Question7 has no style */
+
+/* Question8 style key */
+.question8 > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.question8 > div:nth-child(1) {
+  background-color: #96ceb4;
+}
+
+.question8 > div:nth-child(2) {
+  background-color: #ff6f69;
+}
+
+.question8 > div:nth-child(3) {
+  background-color: #88d8b0;
+}
+
+.question8 > div:nth-child(4) {
+  background-color: #f5e553;
+}
+
+.question8 > div:nth-child(5) {
+  background-color: #5ecaf9;
+}
+
+.question8 > div:nth-child(6) {
+  background-color: #12b388;
+}
+
+/* Question9 style key */
+.question9 > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.question9 > div:nth-child(1) {
+  background-color: #96ceb4;
+}
+
+.question9 > div:nth-child(2) {
+  background-color: #ff6f69;
+}
+
+.question9 > div:nth-child(3) {
+  background-color: #88d8b0;
+}
+
+.question9 > div:nth-child(4) {
+  background-color: #f5e553;
+}
+
+/* Question10 style key */
+.question10 > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.question10 > div:nth-child(1) {
+  background-color: #96ceb4;
+}
+
+.question10 > div:nth-child(2) {
+  background-color: #ff6f69;
+}
+
+.question10 > div:nth-child(3) {
+  background-color: #88d8b0;
+}
+
+.question10 > div:nth-child(4) {
+  background-color: #f5e553;
+}
+
+/* Question11 style key */
+.question11 > header {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.question11 > aside {
+  padding: 10px;
+  text-align: left;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.question11 > main {
+  padding: 10px;
+  text-align: auto;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.question11 > footer {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.question11 > header:nth-child(1) {
+  background-color: #96ceb4;
+}
+
+.question11 > aside:nth-child(2) {
+  background-color: #ff6f69;
+}
+
+.question11 > main:nth-child(3) {
+  background-color: #3c96d7;
+}
+
+.question11 > footer:nth-child(4) {
+  background-color: #f5e553;
+}
