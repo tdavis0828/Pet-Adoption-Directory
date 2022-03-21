@@ -1,3 +1,13 @@
+:root {
+  --homeColor: #96ceb4;
+  --searchColor: #ff6f69;
+  --logoutColor: #88d8b0;
+  --fourthColor: #f5e553;
+  --fifth-color: #5ecaf9;
+  --sixth-color: #12b388;
+  --font-color: #ffeead;
+}
+
 /* Question1 style key */
 
 html,
@@ -16,56 +26,72 @@ p {
   font-weight: bold;
 }
 
-.question1 > div {
+.home {
+  background-color: var(--homeColor);
+}
+
+.search {
+  background: var(--searchColor);
+}
+
+.logout {
+  background: var(--logoutColor);
+}
+
+.fourthEl {
+  background: var(--fourthColor);
+}
+
+.question > div {
   padding: 10px;
   text-align: center;
   font-size: 2em;
-  color: #ffeead;
+  color: var(--font-color);
 }
 
-.question1 > div:nth-child(1) {
+/* .question1 > div:nth-child(1) {
   background-color: #96ceb4;
-}
+} */
 
-.question1 > div:nth-child(2) {
+/* .question1 > div:nth-child(2) {
   background-color: #ff6f69;
 }
 
 .question1 > div:nth-child(3) {
   background-color: #88d8b0;
-}
+} */
 
 /* Question2 style key */
 
-.question2 > div {
+/* .question2 > div {
   padding: 10px;
   text-align: center;
   font-size: 2em;
   color: #ffeead;
-}
+} */
 
-.question2 > div:nth-child(1) {
+/* .question2 > div:nth-child(1) {
   background-color: #96ceb4;
-}
+} */
 
-.question2 > div:nth-child(2) {
+/* .question2 > div:nth-child(2) {
   background-color: #ff6f69;
-}
+} */
 
-.question2 > div:nth-child(3) {
+/* .question2 > div:nth-child(3) {
   background-color: #88d8b0;
-}
+} */
 
 /* Question3 style key */
-
+/* 
 .question3 > div {
   padding: 10px;
   text-align: center;
   font-size: 2em;
   color: #ffeead;
-}
+} */
 
-.question3 > div:nth-child(1) {
+/* .question3 > div:nth-child(1) {
   background-color: #96ceb4;
 }
 
@@ -75,18 +101,18 @@ p {
 
 .question3 > div:nth-child(3) {
   background-color: #88d8b0;
-}
+} */
 
 /* Question4 style key */
 
-.question4 > div {
+/* .question4 > div {
   padding: 10px;
   text-align: center;
   font-size: 2em;
   color: #ffeead;
-}
+} */
 
-.question4 > div:nth-child(1) {
+/* .question4 > div:nth-child(1) {
   background-color: #96ceb4;
 }
 
@@ -96,22 +122,22 @@ p {
 
 .question4 > div:nth-child(3) {
   background-color: #88d8b0;
-}
+} */
 
-.question4 > div:nth-child(4) {
-  background-color: #f5e553;
-}
+/* .question4 > div:nth-child(4) {
+  background-color: var(--fourthColor);
+} */
 
 /* Question5 style key */
 
-.question5 > div {
+/* .question5 > div {
   padding: 10px;
   text-align: center;
   font-size: 2em;
   color: #ffeead;
-}
+} */
 
-.question5 > div:nth-child(1) {
+/* .question5 > div:nth-child(1) {
   background-color: #96ceb4;
 }
 
@@ -121,22 +147,22 @@ p {
 
 .question5 > div:nth-child(3) {
   background-color: #88d8b0;
-}
+} */
 
-.question5 > div:nth-child(4) {
-  background-color: #f5e553;
-}
+/* .question5 > div:nth-child(4) {
+  background-color: var(--fourthColor);
+} */
 
 /* Question6 style key */
 
-.question6 > div {
+/* .question6 > div {
   padding: 10px;
   text-align: center;
   font-size: 2em;
   color: #ffeead;
-}
+} */
 
-.question6 > div:nth-child(1) {
+/* .question6 > div:nth-child(1) {
   background-color: #96ceb4;
 }
 
@@ -146,23 +172,23 @@ p {
 
 .question6 > div:nth-child(3) {
   background-color: #88d8b0;
-}
+} */
 
-.question6 > div:nth-child(4) {
-  background-color: #f5e553;
-}
+/* .question6 > div:nth-child(4) {
+  background-color: var(--fourthColor);
+} */
 
 /* Question7 has no style */
 
 /* Question8 style key */
-.question8 > div {
+/* .question8 > div {
   padding: 10px;
   text-align: center;
   font-size: 2em;
   color: #ffeead;
-}
+} */
 
-.question8 > div:nth-child(1) {
+/* .question8 > div:nth-child(1) {
   background-color: #96ceb4;
 }
 
@@ -172,109 +198,110 @@ p {
 
 .question8 > div:nth-child(3) {
   background-color: #88d8b0;
-}
+} */
 
-.question8 > div:nth-child(4) {
-  background-color: #f5e553;
-}
+/* .question8 > div:nth-child(4) {
+  background-color: var(--fourthColor);
+} */
 
 .question8 > div:nth-child(5) {
-  background-color: #5ecaf9;
+  background-color: var(--fifth-color);
 }
 
 .question8 > div:nth-child(6) {
-  background-color: #12b388;
+  background-color: var(--sixth-color);
 }
 
 /* Question9 style key */
-.question9 > div {
+/* .question9 > div {
   padding: 10px;
   text-align: center;
   font-size: 2em;
   color: #ffeead;
-}
+} */
 
-.question9 > div:nth-child(1) {
-  background-color: #96ceb4;
+/* .question9 > div:nth-child(1) {
+  background-color: var(--homeColor);
 }
 
 .question9 > div:nth-child(2) {
-  background-color: #ff6f69;
+  background-color: var(--searchColor);
 }
 
 .question9 > div:nth-child(3) {
-  background-color: #88d8b0;
-}
+  background-color: var(--logoutColor);
+} */
 
-.question9 > div:nth-child(4) {
-  background-color: #f5e553;
-}
+/* .question9 > div:nth-child(4) {
+  background-color: var(--fourthColor);
+} */
 
 /* Question10 style key */
-.question10 > div {
+/* .question10 > div {
   padding: 10px;
   text-align: center;
   font-size: 2em;
   color: #ffeead;
-}
+} */
 
-.question10 > div:nth-child(1) {
-  background-color: #96ceb4;
+/* .question10 > div:nth-child(1) {
+  background-color: var(--homeColor);
 }
 
 .question10 > div:nth-child(2) {
-  background-color: #ff6f69;
+  background-color: var(--searchColor);
 }
 
 .question10 > div:nth-child(3) {
-  background-color: #88d8b0;
-}
+  background-color: var(--logoutColor);
+} */
 
-.question10 > div:nth-child(4) {
-  background-color: #f5e553;
-}
+/* .question10 > div:nth-child(4) {
+  background-color: var(--fourthColor);
+} */
 
 /* Question11 style key */
-.question11 > header {
+.question11 > header,
+.question11 > footer {
   padding: 10px;
   text-align: center;
   font-size: 2em;
-  color: #ffeead;
+  color: var(--font-color);
 }
 
 .question11 > aside {
   padding: 10px;
   text-align: left;
   font-size: 2em;
-  color: #ffeead;
+  color: var(--font-color);
 }
 
 .question11 > main {
   padding: 10px;
   text-align: auto;
   font-size: 2em;
-  color: #ffeead;
+  color: var(--font-color);
 }
 
-.question11 > footer {
+/* .question11 > footer {
   padding: 10px;
   text-align: center;
   font-size: 2em;
   color: #ffeead;
-}
+} */
 
-.question11 > header:nth-child(1) {
+/* .question11 > header:nth-child(1) {
   background-color: #96ceb4;
 }
 
 .question11 > aside:nth-child(2) {
   background-color: #ff6f69;
-}
+} */
 
 .question11 > main:nth-child(3) {
   background-color: #3c96d7;
 }
 
-.question11 > footer:nth-child(4) {
-  background-color: #f5e553;
-}
+/* .question11 > footer:nth-child(4) {
+  background-color: var(--fourthColor);
+} */
