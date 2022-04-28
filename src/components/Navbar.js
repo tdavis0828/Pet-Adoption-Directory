@@ -40,7 +40,7 @@ function Navbar() {
                     </Link>
                   </li>
                   <li className='nav-item'>
-                    <Link to='/' className= 'nav-links' onClick={closeMoblieMenu}>About
+                    <Link to='/about' className= 'nav-links' onClick={closeMoblieMenu}>Adoption
                     </Link>
                   </li>
                   <li className='nav-item'>
@@ -48,7 +48,7 @@ function Navbar() {
                     </Link>
                   </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline'> Sign up</Button>}
+                {button && <Button buttonStyle='btn--outline'> Sign up </Button>}
             </div>
         </nav>
     </>
