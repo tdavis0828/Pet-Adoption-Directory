@@ -1,15 +1,22 @@
-import "./App.css";
-import data from "./data.json";
-import Header from "./components/Header";
-import Table from "./components/Table";
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import './App.css';
+import Home from './components/pages/Home'
+import About from './components/pages/About'
+import Layout from './components/pages/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Table pets={data} />
-    </div>
+    <>
+      <Routes>
+          <Route path = '/' element= {<Layout />} >
+            <Route index element= {<Home />} />
+            <Route path='about' element={<About />} />
+          </Route>
+          
+      </Routes>
+    </>
   );
 }
 
-export default App;
+export default App

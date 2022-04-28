@@ -244,12 +244,12 @@ const Table = ({ pets }) => {
                   <i className="fa-solid fa-sort"></i>
 
                   {sortedName === "AZ" ? (
-                    <i class="fa-solid fa-arrow-down-z-a"></i>
+                    <i className="fa-solid fa-arrow-down-z-a"></i>
                   ) : (
                     ""
                   )}
                   {sortedName === "ZA" ? (
-                    <i class="fa-solid fa-arrow-up-a-z"></i>
+                    <i className="fa-solid fa-arrow-up-a-z"></i>
                   ) : (
                     ""
                   )}
@@ -260,14 +260,14 @@ const Table = ({ pets }) => {
               <th>
                 AGE
                 <button className="sort-btn" onClick={() => sortAge()}>
-                  <i class="fa-solid fa-sort"></i>
+                  <i className="fa-solid fa-sort"></i>
                   {sortedAge === "1-9" ? (
                     <i class="fa-solid fa-arrow-up-9-1"></i>
                   ) : (
                     ""
                   )}
                   {sortedAge === "9-1" ? (
-                    <i class="fa-solid fa-arrow-up-1-9"></i>
+                    <i className="fa-solid fa-arrow-up-1-9"></i>
                   ) : (
                     ""
                   )}

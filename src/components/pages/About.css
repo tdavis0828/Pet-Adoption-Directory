@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Raleway:wght@100;200;300&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header{
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.wrapper{
+  height: 55vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-header{
+  width: 100%;
+  height: 25vh;
+  background: rgba(128, 128, 128, 0.116);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  padding: 3rem 5rem;
+}
+
+
+.form input{
+width: 550px;
+padding: .5rem;
+font-size: 1.1rem;
+text-align: center;
+margin: .25rem 1rem;
+border-radius: 15px;
+border: 1px solid rgba(0, 0, 0, .2)
+}
+
+.form button{
+  width: 500px;
+  padding: .5rem;
+  font-size: 1.1rem;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.35s ease;
+}
+
+.disabled{
+  background: rgba(0, 0, 0, .65);
+  text-decoration: line-through;
+  cursor: not-allowed !important;
+}
+
+label, input{
+  display: block;
+  margin: 1rem;
+}
+
+.search{
+  margin: 1rem;
+  padding: .5rem;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  text-align: center;
+  width: 350px;
+}
+
+.table-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.table{
+  width: 95%;
+  height: 95%;
+  text-align: center;
+}
+
+
+
+.table tr:nth-child(odd){
+  background: rgba(128, 128, 128, 0.116);
+  
+}
+
+table, td, tr{
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-collapse: collapse;
+}
+
+i{
+  padding: .5rem;
+}
+
+.sort-btn{
+  border: none;
+  padding: .5rem;
+  cursor: pointer;
+}
