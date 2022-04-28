@@ -1,9 +1,13 @@
 import "./App.css";
+import data from "./data.json";
+import Header from "./components/Header";
+import Table from "./components/Table";
 
 function App() {
   return (
     <div className="App">
-      <h1>Directory will go here</h1>
+      <Header />
+      <Table pets={data} />
     </div>
   );
 }
