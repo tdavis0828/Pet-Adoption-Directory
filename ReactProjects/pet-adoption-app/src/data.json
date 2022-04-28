@@ -1,0 +1,108 @@
+[
+{
+    "name": "Scruffy",
+    "type": "Dog",
+    "breed": "French Bulldog",
+    "age": "6",
+    "location": "Los Angeles, CA"
+},
+{
+    "name": "Mittens",
+    "type": "Cat",
+    "breed": "Bengal",
+    "age": "1",
+    "location": "Denver, CO"
+},
+{
+    "name": "Lizzie",
+    "type": "Lizard",
+    "breed": "Bearded Dragon",
+    "age": "4",
+    "location": "Los Angeles, CA"
+},
+{
+    "name": "Whinnie",
+    "type": "Mini Horse",
+    "breed": "Falabella",
+    "age": "3",
+    "location": "Las Vegas, NV"
+},
+{
+    "name": "Bach",
+    "type": "Goat",
+    "breed": "Alpine",
+    "age": "2",
+    "location": "Orange County, CA"
+},
+{
+    "name": "Spot",
+    "type": "Dog",
+    "breed": "Golden Retriever",
+    "age": "5",
+    "location": "Big Bear, CA"
+},
+{
+    "name": "Major",
+    "type": "Cat",
+    "breed": "Munchkin",
+    "age": "1",
+    "location": "Los Angeles, CA"
+},
+{
+    "name": "Apple Sauce",
+    "type": "Bird",
+    "breed": "Parrot",
+    "age": "6",
+    "location": "Little Rock, AR"
+},
+{
+    "name": "Maxamillion",
+    "type": "Hamster",
+    "breed": "Golden",
+    "age": "1",
+    "location": "Boulder City, CO"
+},
+{
+    "name": "Sam",
+    "type": "Dog",
+    "breed": "Boxer",
+    "age": "8",
+    "location": "Little Rock, AR"
+},
+{
+    "name": "Slithers",
+    "type": "Snake",
+    "breed": "Rattle Sake",
+    "age": "6",
+    "location": "Los Angeles"
+},
+{
+    "name": "Crush",
+    "type": "Turtle",
+    "breed": "Red-Eared Slider",
+    "age": "9",
+    "location": "Los Angeles, CA"
+},
+{
+    "name": "Fanny",
+    "type": "Bird",
+    "breed": "Falcon",
+    "age": "6",
+    "location": "New York, NY"
+},
+{
+    "name": "Socks",
+    "type": "Cat",
+    "breed": "British Shorthair",
+    "age": "4",
+    "location": "San Francisco, CA"
+},
+{
+    "name": "Muscles",
+    "type": "Snake",
+    "breed": "Boa Constrictor",
+    "age": "9",
+    "location": "Chicago, IL"
+}
+
+]
